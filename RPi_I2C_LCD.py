@@ -112,6 +112,8 @@ class LCD:
 
         :param i2c_addr: i2c address
         :type i2c_addr: int
+        :param port: i2c busnumber
+        :type port: int
         """
         # private vars
         self._back_light = False
